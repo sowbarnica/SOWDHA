@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-	int d,s;
-	scanf("%d",&d);
-	s=(d%2);
-	if(s==0)
+	int v,a;
+	scanf("%d",&v);
+	a=(v%2);
+	if(a==0)
 	{
 		printf("The  given number is a composite number \n");
 	}
